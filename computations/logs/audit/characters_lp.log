@@ -1,0 +1,56 @@
+l=  5 classes=7 orth(param)=2.2e-16 sum dim^2 ok=True | brute: #classes=7 sizes match=True orth(all elements)=8.9e-16 const-on-classes=1.4e-14 #tr0=25 #invol=25 (l^2=25)
+   min|coef|=4.167e-02; lam(1_Inv)=4.333333 vs (l^2+1)/(l+1)=4.333333; mu0=0.208333 vs l/(l^2-1)=0.208333
+   Psi: e=16.0 [(l-1)^2=16] u=-4.0 [-(l-1)] is=24.0 [l^2-1=24] in=16.0 [(l-1)^2] regular values=[np.float64(-8.0), np.float64(-0.0)] [0, -2(l-1)=-8]; E[1_Inv Psi]=4.333333
+   LP min lam+2(l-1)mu = 6.00000000  (claim l+1 = 6);  attained at mu=0.250000, lam=4.000000
+   inf mu*lam over grid (400 pts) = 0.90277778 at M=0.20833;  kappa_l = 0.90277778; 1-1/l = 0.80000
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5417), 1.5347), (np.float64(0.5583), 1.5447), (np.float64(0.575), 1.5525), (np.float64(0.5917), 1.5581), (np.float64(0.6083), 1.5614), (np.float64(0.625), 1.5625)]
+   [full mu range, 502 pts in [mu0, 3]] min mu*lam = 0.90277778 (kappa_l = 0.90277778); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 5.8e-15
+l=  7 classes=9 orth(param)=4.4e-16 sum dim^2 ok=True | brute: #classes=9 sizes match=True orth(all elements)=2.2e-15 const-on-classes=2.9e-14 #tr0=49 #invol=49 (l^2=49)
+   min|coef|=2.083e-02; lam(1_Inv)=6.250000 vs (l^2+1)/(l+1)=6.250000; mu0=0.145833 vs l/(l^2-1)=0.145833
+   Psi: e=36.0 [(l-1)^2=36] u=-6.0 [-(l-1)] is=48.0 [l^2-1=48] in=36.0 [(l-1)^2] regular values=[np.float64(-12.0), np.float64(0.0)] [0, -2(l-1)=-12]; E[1_Inv Psi]=6.250000
+   LP min lam+2(l-1)mu = 8.00000000  (claim l+1 = 8);  attained at mu=0.166667, lam=6.000000
+   inf mu*lam over grid (400 pts) = 0.91145833 at M=0.14583;  kappa_l = 0.91145833; 1-1/l = 0.85714
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5208), 2.0182), (np.float64(0.5333), 2.0267), (np.float64(0.5458), 2.0332), (np.float64(0.5583), 2.0379), (np.float64(0.5708), 2.0407), (np.float64(0.5833), 2.0417)]
+   [full mu range, 503 pts in [mu0, 3]] min mu*lam = 0.91145833 (kappa_l = 0.91145833); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 2.2e-14
+l= 11 classes=13 orth(param)=3.8e-15 sum dim^2 ok=True | brute: #classes=13 sizes match=True orth(all elements)=2.3e-15 const-on-classes=1.3e-13 #tr0=121 #invol=121 (l^2=121)
+   min|coef|=8.333e-03; lam(1_Inv)=10.166667 vs (l^2+1)/(l+1)=10.166667; mu0=0.091667 vs l/(l^2-1)=0.091667
+   Psi: e=100.0 [(l-1)^2=100] u=-10.0 [-(l-1)] is=120.0 [l^2-1=120] in=100.0 [(l-1)^2] regular values=[np.float64(-20.0), np.float64(0.0)] [0, -2(l-1)=-20]; E[1_Inv Psi]=10.166667
+   LP min lam+2(l-1)mu = 12.00000000  (claim l+1 = 12);  attained at mu=0.100000, lam=10.000000
+   inf mu*lam over grid (400 pts) = 0.93194444 at M=0.09167;  kappa_l = 0.93194444; 1-1/l = 0.90909
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5083), 3.0076), (np.float64(0.5167), 3.0139), (np.float64(0.525), 3.0188), (np.float64(0.5333), 3.0222), (np.float64(0.5417), 3.0243), (np.float64(0.55), 3.025)]
+   [full mu range, 503 pts in [mu0, 3]] min mu*lam = 0.93194444 (kappa_l = 0.93194444); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 1.9e-13
+l= 13 classes=15 orth(param)=3.3e-15 sum dim^2 ok=True | brute: #classes=15 sizes match=True orth(all elements)=4.6e-15 const-on-classes=1.9e-13 #tr0=169 #invol=169 (l^2=169)
+   min|coef|=5.952e-03; lam(1_Inv)=12.142857 vs (l^2+1)/(l+1)=12.142857; mu0=0.077381 vs l/(l^2-1)=0.077381
+   Psi: e=144.0 [(l-1)^2=144] u=-12.0 [-(l-1)] is=168.0 [l^2-1=168] in=144.0 [(l-1)^2] regular values=[np.float64(-24.0), np.float64(0.0)] [0, -2(l-1)=-24]; E[1_Inv Psi]=12.142857
+   LP min lam+2(l-1)mu = 14.00000000  (claim l+1 = 14);  attained at mu=0.083333, lam=12.000000
+   inf mu*lam over grid (400 pts) = 0.93962585 at M=0.07738;  kappa_l = 0.93962585; 1-1/l = 0.92308
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.506), 3.5055), (np.float64(0.5131), 3.511), (np.float64(0.5202), 3.5153), (np.float64(0.5274), 3.5184), (np.float64(0.5345), 3.5202), (np.float64(0.5417), 3.5208)]
+   [full mu range, 502 pts in [mu0, 3]] min mu*lam = 0.93962585 (kappa_l = 0.93962585); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 1.1e-13
+l= 17 classes=19 orth(param)=1.1e-14 sum dim^2 ok=True
+   min|coef|=3.472e-03; lam(1_Inv)=16.111111 vs (l^2+1)/(l+1)=16.111111; mu0=0.059028 vs l/(l^2-1)=0.059028
+   Psi: e=256.0 [(l-1)^2=256] u=-16.0 [-(l-1)] is=288.0 [l^2-1=288] in=256.0 [(l-1)^2] regular values=[np.float64(-32.0), np.float64(0.0)] [0, -2(l-1)=-32]; E[1_Inv Psi]=16.111111
+   LP min lam+2(l-1)mu = 18.00000000  (claim l+1 = 18);  attained at mu=0.062500, lam=16.000000
+   inf mu*lam over grid (400 pts) = 0.95100309 at M=0.05903;  kappa_l = 0.95100309; 1-1/l = 0.94118
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5035), 4.5033), (np.float64(0.509), 4.5077), (np.float64(0.5146), 4.5112), (np.float64(0.5201), 4.5136), (np.float64(0.5257), 4.5151), (np.float64(0.5312), 4.5156)]
+   [full mu range, 502 pts in [mu0, 3]] min mu*lam = 0.95100309 (kappa_l = 0.95100309); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 2.9e-13
+l= 31 classes=33 orth(param)=2.0e-14 sum dim^2 ok=True
+   min|coef|=1.042e-03; lam(1_Inv)=30.062500 vs (l^2+1)/(l+1)=30.062500; mu0=0.032292 vs l/(l^2-1)=0.032292
+   Psi: e=900.0 [(l-1)^2=900] u=-30.0 [-(l-1)] is=960.0 [l^2-1=960] in=900.0 [(l-1)^2] regular values=[np.float64(-60.0), np.float64(-0.0)] [0, -2(l-1)=-60]; E[1_Inv Psi]=30.062500
+   LP min lam+2(l-1)mu = 32.00000000  (claim l+1 = 32);  attained at mu=0.033333, lam=30.000000
+   inf mu*lam over grid (400 pts) = 0.97076823 at M=0.03229;  kappa_l = 0.97076823; 1-1/l = 0.96774
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.501), 8.001), (np.float64(0.5042), 8.0036), (np.float64(0.5073), 8.0057), (np.float64(0.5104), 8.0072), (np.float64(0.5135), 8.008), (np.float64(0.5167), 8.0083)]
+   [full mu range, 503 pts in [mu0, 3]] min mu*lam = 0.97076823 (kappa_l = 0.97076823); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 2.5e-12
+l= 61 classes=63 orth(param)=2.9e-13 sum dim^2 ok=True
+   min|coef|=2.688e-04; lam(1_Inv)=60.032258 vs (l^2+1)/(l+1)=60.032258; mu0=0.016398 vs l/(l^2-1)=0.016398
+   Psi: e=3600.0 [(l-1)^2=3600] u=-60.0 [-(l-1)] is=3720.0 [l^2-1=3720] in=3600.0 [(l-1)^2] regular values=[np.float64(-120.0), np.float64(0.0)] [0, -2(l-1)=-120]; E[1_Inv Psi]=60.032258
+   LP min lam+2(l-1)mu = 62.00000000  (claim l+1 = 62);  attained at mu=0.016667, lam=60.000000
+   inf mu*lam over grid (400 pts) = 0.98439993 at M=0.01640;  kappa_l = 0.98439993; 1-1/l = 0.98361
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5003), 15.5003), (np.float64(0.5019), 15.5017), (np.float64(0.5035), 15.5028), (np.float64(0.5051), 15.5035), (np.float64(0.5067), 15.504), (np.float64(0.5083), 15.5042)]
+   [full mu range, 503 pts in [mu0, 3]] min mu*lam = 0.98439993 (kappa_l = 0.98439993); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 1.2e-11
+l= 97 classes=99 orth(param)=3.8e-13 sum dim^2 ok=True
+   min|coef|=1.063e-04; lam(1_Inv)=96.020408 vs (l^2+1)/(l+1)=96.020408; mu0=0.010310 vs l/(l^2-1)=0.010310
+   Psi: e=9216.0 [(l-1)^2=9216] u=-96.0 [-(l-1)] is=9408.0 [l^2-1=9408] in=9216.0 [(l-1)^2] regular values=[np.float64(-192.0), np.float64(0.0)] [0, -2(l-1)=-192]; E[1_Inv Psi]=96.020408
+   LP min lam+2(l-1)mu = 98.00000000  (claim l+1 = 98);  attained at mu=0.010417, lam=96.000000
+   inf mu*lam over grid (400 pts) = 0.99000633 at M=0.01031;  kappa_l = 0.99000633; 1-1/l = 0.98969
+   [mu near 1/2, k=1] mu-cap -> min mu*lam (on the LP's lam-optimal phi): [(np.float64(0.5001), 24.5001), (np.float64(0.5011), 24.501), (np.float64(0.5021), 24.5017), (np.float64(0.5032), 24.5022), (np.float64(0.5042), 24.5025), (np.float64(0.5052), 24.5026)]
+   [full mu range, 502 pts in [mu0, 3]] min mu*lam = 0.99000633 (kappa_l = 0.99000633); min over mu >= 1/2 = 1.000000; points with lam* below the B1 bound: 0; max |lam* - B1 bound| = 3.6e-11

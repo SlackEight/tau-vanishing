@@ -1,0 +1,5 @@
+l=5: |G'|=120 #cosets=15 (=l(l+1)/2? True); classes (size, #inert deg-1, #split deg-1): [(15, 2, 1), (10, 3, 0)]; min inert=2 vs (l-1)/2=2
+l=7: |G'|=336 #cosets=28 (=l(l+1)/2? True); classes (size, #inert deg-1, #split deg-1): [(28, 3, 1), (21, 4, 0)]; min inert=3 vs (l-1)/2=3
+l=11: |G'|=1320 #cosets=66 (=l(l+1)/2? True); classes (size, #inert deg-1, #split deg-1): [(66, 5, 1), (55, 6, 0)]; min inert=5 vs (l-1)/2=5
+l=13: |G'|=2184 #cosets=91 (=l(l+1)/2? True); classes (size, #inert deg-1, #split deg-1): [(91, 6, 1), (78, 7, 0)]; min inert=6 vs (l-1)/2=6
+l=29: |G'|=24360 #cosets=435 (=l(l+1)/2? True); classes (size, #inert deg-1, #split deg-1): [(435, 14, 1), (406, 15, 0)]; min inert=14 vs (l-1)/2=14

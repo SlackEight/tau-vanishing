@@ -1,0 +1,2 @@
+[5, 7] inf mu*lam (grid, full mu range, 264 pts) 0.822844 prod kappa 0.822844 ratio 1.0 | min mu*lam over mu>=1/2 1.0
+[7, 13] inf mu*lam (grid, full mu range, 264 pts) 0.85643 prod kappa 0.85643 ratio 1.0 | min mu*lam over mu>=1/2 1.0

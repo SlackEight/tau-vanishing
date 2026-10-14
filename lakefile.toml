@@ -1,0 +1,35 @@
+name = "tau_vanishing"
+defaultTargets = ["TauVanishing"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+# Lean's `pp.unicode.fun` etc. are left at their defaults.
+
+# The only dependency: Cureton–Thorner / AxiomProver, "every Dedekind zeta function is zero-free
+# on Re s > 31/32" (`DedekindZetaZeroFree.main`), pinned to the audited commit.
+# This transitively pins Mathlib to 0493595ecd5da8ef14742febab99728f98e948e8 and Lean to
+# v4.35.0-rc3 (see lean-toolchain). For local development against an already-built checkout
+# (no 1-hour rebuild), run `scripts/dev-link.sh` once; see README.md, "Building and checking".
+[[require]]
+name = "dedekind_zeta"
+git = "https://github.com/AxiomMath/DedekindZetaZeroFree"
+rev = "09afbb4ce6570c1615d58509dc197fc9f0956b7d"
+
+# Tau Ceti (TauCetiProject/TauCeti), pinned to the SAME commit that the CT repo pins, so it builds
+# against the same Mathlib (0493595). Upstream TauCeti HEAD has moved to a different Mathlib and
+# cannot be combined with CT. We use its Frobenius / fixed-field / decomposition-group library
+# (modules D2a, D3), `ramifiedPrimes` (E) and the PGL₂ action on ℙ¹ (A). Apache-2.0.
+[[require]]
+name = "TauCeti"
+git = "https://github.com/TauCetiProject/TauCeti.git"
+rev = "c197d7bdbae257e85d23443c89aa7cd34c13410b"
+
+[[lean_lib]]
+name = "TauVanishing"
+
+# Comparator challenge (statements only, `sorry` proofs; Mathlib-only). Not a default target.
+# Run `lake comparator` (config `comparator.json`) to judge `TauVanishing` against it.
+[[lean_lib]]
+name = "TauVanishingChallenge"
+srcDir = "Challenge"

@@ -1,0 +1,10 @@
+l= 5 nonsplit involution: [G':N] = 15 = l(l+1)/2; fixed cosets inert in M = 3 (expected 3: True), fixed cosets split in M = 0
+l= 5 split    involution: [G':N] = 15 = l(l+1)/2; fixed cosets inert in M = 2 (expected 2: True), fixed cosets split in M = 1
+l= 7 nonsplit involution: [G':N] = 28 = l(l+1)/2; fixed cosets inert in M = 4 (expected 4: True), fixed cosets split in M = 0
+l= 7 split    involution: [G':N] = 28 = l(l+1)/2; fixed cosets inert in M = 3 (expected 3: True), fixed cosets split in M = 1
+l=11 nonsplit involution: [G':N] = 66 = l(l+1)/2; fixed cosets inert in M = 6 (expected 6: True), fixed cosets split in M = 0
+l=11 split    involution: [G':N] = 66 = l(l+1)/2; fixed cosets inert in M = 5 (expected 5: True), fixed cosets split in M = 1
+l=13 nonsplit involution: [G':N] = 91 = l(l+1)/2; fixed cosets inert in M = 7 (expected 7: True), fixed cosets split in M = 0
+l=13 split    involution: [G':N] = 91 = l(l+1)/2; fixed cosets inert in M = 6 (expected 6: True), fixed cosets split in M = 1
+l=29 nonsplit involution: [G':N] = 435 = l(l+1)/2; fixed cosets inert in M = 15 (expected 15: True), fixed cosets split in M = 0
+l=29 split    involution: [G':N] = 435 = l(l+1)/2; fixed cosets inert in M = 14 (expected 14: True), fixed cosets split in M = 1

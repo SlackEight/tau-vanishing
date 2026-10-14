@@ -1,0 +1,15 @@
+{
+  "challenge_module": "TauVanishingChallenge",
+  "solution_module": "TauVanishing",
+  "theorem_names": [
+    "TauVanishing.card_vanishing_le",
+    "TauVanishing.card_vanishing_le_ct",
+    "TauVanishing.card_tau_eq_zero_le",
+    "TauVanishing.card_discriminant_coeff_eq_zero_le"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

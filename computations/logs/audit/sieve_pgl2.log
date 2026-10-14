@@ -1,0 +1,17 @@
+5 nclasses 7 orth_err 2.22e-16
+7 nclasses 9 orth_err 2.33e-16
+11 nclasses 13 orth_err 4.09e-16
+13 nclasses 15 orth_err 8.88e-16
+17 nclasses 19 orth_err 6.97e-16
+19 nclasses 21 orth_err 7.15e-16
+23 nclasses 25 orth_err 1.56e-15
+29 nclasses 31 orth_err 2.30e-15
+31 nclasses 33 orth_err 1.86e-15
+37 nclasses 39 orth_err 2.20e-15
+41 nclasses 43 orth_err 2.44e-15
+43 nclasses 45 orth_err 2.46e-15
+47 nclasses 49 orth_err 3.33e-15
+53 nclasses 55 orth_err 3.45e-15
+97 nclasses 99 orth_err 7.03e-15
+brute 5 class sizes match: True |Inv| = 25 = l^2: True
+brute 7 class sizes match: True |Inv| = 49 = l^2: True

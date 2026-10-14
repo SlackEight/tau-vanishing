@@ -1,0 +1,9 @@
+factors l = [5, 7]: single kappas = [0.9028, 0.9115], product of kappas = 0.8228; kappa(product group, all majorants, full mu range) = 0.8228; ratio = 1.0000; min mu*lam over grid points with mu >= 1/2 = 1.0000
+  optimiser: mu = 0.03038, lam = 27.083; singular values of phi as a matrix: [2. 0. 0. 0.]
+factors l = [5, 11]: single kappas = [0.9028, 0.9319], product of kappas = 0.8413; kappa(product group, all majorants, full mu range) = 0.8413; ratio = 1.0000; min mu*lam over grid points with mu >= 1/2 = 1.0000
+  optimiser: mu = 0.01910, lam = 44.056; singular values of phi as a matrix: [2. 0. 0. 0.]
+factors l = [7, 11]: single kappas = [0.9115, 0.9319], product of kappas = 0.8494; kappa(product group, all majorants, full mu range) = 0.8494; ratio = 1.0000; min mu*lam over grid points with mu >= 1/2 = 1.0000
+  optimiser: mu = 0.01337, lam = 63.542; singular values of phi as a matrix: [2. 0. 0. 0.]
+factors l = [11, 13]: single kappas = [0.9319, 0.9396], product of kappas = 0.8757; kappa(product group, all majorants, full mu range) = 0.8757; ratio = 1.0000; min mu*lam over grid points with mu >= 1/2 = 1.0000
+  optimiser: mu = 0.00709, lam = 123.452; singular values of phi as a matrix: [2. 0. 0. 0.]
+factors l = [5, 7, 11]: single kappas = [0.9028, 0.9115, 0.9319], product of kappas = 0.7668; kappa(product group, all majorants, full mu range) = 0.7668; ratio = 1.0000; min mu*lam over grid points with mu >= 1/2 = 1.0000

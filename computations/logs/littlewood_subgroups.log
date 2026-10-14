@@ -1,0 +1,20 @@
+l=5: 106 subgroups; |Inv|^2/|G| = 5.2083; predicted min F = F(T_n) = 0.8681
+   lowest F over (|M|, nu): (|M|=6, nu=6): 0.8681, (|M|=120, nu=25): 1.0000, (|M|=5, nu=5): 1.0417, (|M|=12, nu=7): 1.2755, (|M|=4, nu=4): 1.3021, (|M|=60, nu=15): 1.3889
+   all (|M|, nu) with F < 1: [(6, 6)]
+   split Cartan (Theorem A): m = 2, A = 0.25000, E = 7.5000, A*E = 1.8750  (>= F_min 0.8681)
+   nonsplit Cartan: m = 2, A = 0.25000, E = 5.0000, A*E = 1.2500  (>= F_min 0.8681)
+l=7: 222 subgroups; |Inv|^2/|G| = 7.1458; predicted min F = F(T_n) = 0.8932
+   lowest F over (|M|, nu): (|M|=8, nu=8): 0.8932, (|M|=336, nu=49): 1.0000, (|M|=7, nu=7): 1.0208, (|M|=6, nu=6): 1.1910, (|M|=16, nu=9): 1.4115, (|M|=168, nu=28): 1.5312
+   all (|M|, nu) with F < 1: [(8, 8)]
+   split Cartan (Theorem A): m = 3, A = 0.16667, E = 9.3333, A*E = 1.5556  (>= F_min 0.8932)
+   nonsplit Cartan: m = 3, A = 0.16667, E = 7.0000, A*E = 1.1667  (>= F_min 0.8932)
+l=11: 630 subgroups; |Inv|^2/|G| = 11.0917; predicted min F = F(T_n) = 0.9243
+   lowest F over (|M|, nu): (|M|=12, nu=12): 0.9243, (|M|=1320, nu=121): 1.0000, (|M|=11, nu=11): 1.0083, (|M|=10, nu=10): 1.1092, (|M|=24, nu=13): 1.5751, (|M|=660, nu=66): 1.6806
+   all (|M|, nu) with F < 1: [(12, 12)]
+   split Cartan (Theorem A): m = 5, A = 0.10000, E = 13.2000, A*E = 1.3200  (>= F_min 0.9243)
+   nonsplit Cartan: m = 5, A = 0.10000, E = 11.0000, A*E = 1.1000  (>= F_min 0.9243)
+l=13: 864 subgroups; |Inv|^2/|G| = 13.0774; predicted min F = F(T_n) = 0.9341
+   lowest F over (|M|, nu): (|M|=14, nu=14): 0.9341, (|M|=2184, nu=169): 1.0000, (|M|=13, nu=13): 1.0060, (|M|=12, nu=12): 1.0898, (|M|=28, nu=15): 1.6274, (|M|=1092, nu=91): 1.7245
+   all (|M|, nu) with F < 1: [(14, 14)]
+   split Cartan (Theorem A): m = 6, A = 0.08333, E = 15.1667, A*E = 1.2639  (>= F_min 0.9341)
+   nonsplit Cartan: m = 6, A = 0.08333, E = 13.0000, A*E = 1.0833  (>= F_min 0.9341)

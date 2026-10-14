@@ -1,0 +1,23 @@
+l=  5 |G|=120 classes=7 orthogonality max err=2.22e-16 sum dim^2 = |G|: True | brute force: class sizes True, perm char = 1+St True, Ind_B mu = PS True
+l=  7 |G|=336 classes=9 orthogonality max err=2.33e-16 sum dim^2 = |G|: True | brute force: class sizes True, perm char = 1+St True, Ind_B mu = PS True
+l= 11 |G|=1320 classes=13 orthogonality max err=4.09e-16 sum dim^2 = |G|: True | brute force: class sizes True, perm char = 1+St True, Ind_B mu = PS True
+l= 13 |G|=2184 classes=15 orthogonality max err=8.88e-16 sum dim^2 = |G|: True | brute force: class sizes True, perm char = 1+St True, Ind_B mu = PS True
+l= 17 |G|=4896 classes=19 orthogonality max err=6.97e-16 sum dim^2 = |G|: True
+l= 19 |G|=6840 classes=21 orthogonality max err=7.15e-16 sum dim^2 = |G|: True
+l= 23 |G|=12144 classes=25 orthogonality max err=1.56e-15 sum dim^2 = |G|: True
+l= 29 |G|=24360 classes=31 orthogonality max err=2.30e-15 sum dim^2 = |G|: True
+l= 31 |G|=29760 classes=33 orthogonality max err=1.86e-15 sum dim^2 = |G|: True
+l= 37 |G|=50616 classes=39 orthogonality max err=2.20e-15 sum dim^2 = |G|: True
+l= 41 |G|=68880 classes=43 orthogonality max err=2.44e-15 sum dim^2 = |G|: True
+l= 43 |G|=79464 classes=45 orthogonality max err=2.46e-15 sum dim^2 = |G|: True
+l= 47 |G|=103776 classes=49 orthogonality max err=3.33e-15 sum dim^2 = |G|: True
+l= 53 |G|=148824 classes=55 orthogonality max err=3.45e-15 sum dim^2 = |G|: True
+l= 59 |G|=205320 classes=61 orthogonality max err=3.86e-15 sum dim^2 = |G|: True
+l= 61 |G|=226920 classes=63 orthogonality max err=3.76e-15 sum dim^2 = |G|: True
+l= 67 |G|=300696 classes=69 orthogonality max err=4.31e-15 sum dim^2 = |G|: True
+l= 71 |G|=357840 classes=73 orthogonality max err=4.27e-15 sum dim^2 = |G|: True
+l= 73 |G|=388944 classes=75 orthogonality max err=4.27e-15 sum dim^2 = |G|: True
+l= 79 |G|=492960 classes=81 orthogonality max err=4.24e-15 sum dim^2 = |G|: True
+l= 83 |G|=571704 classes=85 orthogonality max err=6.22e-15 sum dim^2 = |G|: True
+l= 89 |G|=704880 classes=91 orthogonality max err=7.18e-15 sum dim^2 = |G|: True
+l= 97 |G|=912576 classes=99 orthogonality max err=7.03e-15 sum dim^2 = |G|: True

@@ -1,0 +1,5 @@
+# Versions used to produce the logs in computations/logs/ (Python 3.14.7).
+numpy==2.5.3
+scipy==1.18.1     # linprog(method="highs") for all linear programs
+sympy==1.14.0     # audit/sieve/twopoint.py only
+cypari2==2.2.4    # group_lemma.py density only (PARI/GP 2.17.2, for ramanujantau)

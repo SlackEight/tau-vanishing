@@ -1,0 +1,9 @@
+PARI stack size set to 1000000000 bytes, maximum size set to 1000001536
+X = 100000: pi(X) = 9592; #{p: tau(p) = 0} = 0
+  l=11: #{p <= X: tau(p) = 0 mod l} =    879;  l/(l^2-1) pi(X) =     879.3;  ratio 0.9997;  bound main term pi(X)/(l-1) =     959.2
+  l=13: #{p <= X: tau(p) = 0 mod l} =    733;  l/(l^2-1) pi(X) =     742.2;  ratio 0.9876;  bound main term pi(X)/(l-1) =     799.3
+  l=17: #{p <= X: tau(p) = 0 mod l} =    596;  l/(l^2-1) pi(X) =     566.2;  ratio 1.0526;  bound main term pi(X)/(l-1) =     599.5
+  l=19: #{p <= X: tau(p) = 0 mod l} =    518;  l/(l^2-1) pi(X) =     506.2;  ratio 1.0232;  bound main term pi(X)/(l-1) =     532.9
+  l=29: #{p <= X: tau(p) = 0 mod l} =    349;  l/(l^2-1) pi(X) =     331.2;  ratio 1.0539;  bound main term pi(X)/(l-1) =     342.6
+  l=31: #{p <= X: tau(p) = 0 mod l} =    305;  l/(l^2-1) pi(X) =     309.7;  ratio 0.9847;  bound main term pi(X)/(l-1) =     319.7
+  l=37: #{p <= X: tau(p) = 0 mod l} =    247;  l/(l^2-1) pi(X) =     259.4;  ratio 0.9521;  bound main term pi(X)/(l-1) =     266.4

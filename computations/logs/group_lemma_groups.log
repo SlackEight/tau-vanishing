@@ -1,0 +1,21 @@
+l= 5 class split : |class|=   15 |Z|=  8 |class cap N_out|=  2  #cosets gN with g^-1 i g in N_out = 2
+l= 5 class nonsplit: |class|=   10 |Z|= 12 |class cap N_out|=  2  #cosets gN with g^-1 i g in N_out = 3
+l= 5: |G'|=120, #Inv=25 (l^2=25), N_out all involutions: True, min #cosets = 2 >= (l-1)/2 = 2: True,  #Inv/|G'| = 0.20833 = l/(l^2-1): True
+l= 7 class split : |class|=   28 |Z|= 12 |class cap N_out|=  3  #cosets gN with g^-1 i g in N_out = 3
+l= 7 class nonsplit: |class|=   21 |Z|= 16 |class cap N_out|=  3  #cosets gN with g^-1 i g in N_out = 4
+l= 7: |G'|=336, #Inv=49 (l^2=49), N_out all involutions: True, min #cosets = 3 >= (l-1)/2 = 3: True,  #Inv/|G'| = 0.14583 = l/(l^2-1): True
+l=11 class split : |class|=   66 |Z|= 20 |class cap N_out|=  5  #cosets gN with g^-1 i g in N_out = 5
+l=11 class nonsplit: |class|=   55 |Z|= 24 |class cap N_out|=  5  #cosets gN with g^-1 i g in N_out = 6
+l=11: |G'|=1320, #Inv=121 (l^2=121), N_out all involutions: True, min #cosets = 5 >= (l-1)/2 = 5: True,  #Inv/|G'| = 0.09167 = l/(l^2-1): True
+l=13 class split : |class|=   91 |Z|= 24 |class cap N_out|=  6  #cosets gN with g^-1 i g in N_out = 6
+l=13 class nonsplit: |class|=   78 |Z|= 28 |class cap N_out|=  6  #cosets gN with g^-1 i g in N_out = 7
+l=13: |G'|=2184, #Inv=169 (l^2=169), N_out all involutions: True, min #cosets = 6 >= (l-1)/2 = 6: True,  #Inv/|G'| = 0.07738 = l/(l^2-1): True
+l=17 class split : |class|=  153 |Z|= 32 |class cap N_out|=  8  #cosets gN with g^-1 i g in N_out = 8
+l=17 class nonsplit: |class|=  136 |Z|= 36 |class cap N_out|=  8  #cosets gN with g^-1 i g in N_out = 9
+l=17: |G'|=4896, #Inv=289 (l^2=289), N_out all involutions: True, min #cosets = 8 >= (l-1)/2 = 8: True,  #Inv/|G'| = 0.05903 = l/(l^2-1): True
+l=19 class split : |class|=  190 |Z|= 36 |class cap N_out|=  9  #cosets gN with g^-1 i g in N_out = 9
+l=19 class nonsplit: |class|=  171 |Z|= 40 |class cap N_out|=  9  #cosets gN with g^-1 i g in N_out = 10
+l=19: |G'|=6840, #Inv=361 (l^2=361), N_out all involutions: True, min #cosets = 9 >= (l-1)/2 = 9: True,  #Inv/|G'| = 0.05278 = l/(l^2-1): True
+l=23 class split : |class|=  276 |Z|= 44 |class cap N_out|= 11  #cosets gN with g^-1 i g in N_out = 11
+l=23 class nonsplit: |class|=  253 |Z|= 48 |class cap N_out|= 11  #cosets gN with g^-1 i g in N_out = 12
+l=23: |G'|=12144, #Inv=529 (l^2=529), N_out all involutions: True, min #cosets = 11 >= (l-1)/2 = 11: True,  #Inv/|G'| = 0.04356 = l/(l^2-1): True

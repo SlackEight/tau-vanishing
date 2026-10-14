@@ -1,0 +1,5 @@
+(5, 7) min tA+B over all weights on divisors of m: ratio/sqrt(t)=1.6881, AB=0.7007; 2sqrt(prod(1-1/l))=1.6562; single modulus=2.0
+(5, 7, 11) min tA+B over all weights on divisors of m: ratio/sqrt(t)=1.6200, AB=0.6383; 2sqrt(prod(1-1/l))=1.5791; single modulus=2.0
+(5, 7, 11, 13) min tA+B over all weights on divisors of m: ratio/sqrt(t)=1.5668, AB=0.5902; 2sqrt(prod(1-1/l))=1.5171; single modulus=2.0
+(5, 7, 11, 13, 17) min tA+B over all weights on divisors of m: ratio/sqrt(t)=1.5288, AB=0.5561; 2sqrt(prod(1-1/l))=1.4718; single modulus=2.0
+(5, 7, 11, 13, 17, 19, 23) min tA+B over all weights on divisors of m: ratio/sqrt(t)=1.4712, AB=0.5050; 2sqrt(prod(1-1/l))=1.4011; single modulus=2.0

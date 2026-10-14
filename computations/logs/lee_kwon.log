@@ -1,0 +1,46 @@
+c = 0.933013, e^(1/(2c)) = 1.708983, threshold 6000 e^(1/(2c)) = 10253.90
+Cross-check 1: C7 recomputed from LK Table 1 (C5, c4) and B(m) = C8(m)/(c e^(1/(2c))) (= log rho column)
+  m=108: (b,t) T1=(8.163,40) T7=(8.163,40);  B = 3.7521 (log rho = 3.7521);  C7 recomputed = 1.06043  vs Table 7 1.0604  (agree)
+  m=109: (b,t) T1=(8.163,40) T7=(8.163,40);  B = 3.7542 (log rho = 3.7542);  C7 recomputed = 1.06137  vs Table 7 1.0613  (agree)
+  m=110: (b,t) T1=(8.163,40) T7=(8.163,40);  B = 3.7563 (log rho = 3.7563);  C7 recomputed = 1.06229  vs Table 7 1.0622  (agree)
+  m=120: (b,t) T1=(8.48,43) T7=(8.48,43);  B = 3.7756 (log rho = 3.7756);  C7 recomputed = 1.07092  vs Table 7 1.0709  (agree)
+  m=130: (b,t) T1=(8.678,45) T7=(8.678,45);  B = 3.7924 (log rho = 3.7924);  C7 recomputed = 1.07852  vs Table 7 1.0785  (agree)
+  m=134: (b,t) T1=(8.866,47) T7=(8.866,47);  B = 3.7986 (log rho = 3.7985);  C7 recomputed = 1.08132  vs Table 7 1.0813  (agree)
+Cross-check 2: LK's h(n) column = C7^n/(n C8(n))
+  max relative deviation over Table 7: 0.0107; rows off by > 1%: [129]
+Bounds for n = 108..140 (m = n for n <= 134, m = 134 beyond; C7 rounded down by 5e-5 for 'robust'):
+  n=108 (deg 216) m=108: case Z [CT]    0.055 (robust   0.055); case N (5.4)     0.872; LK case (i)      5.50  -> h^- > 1: False
+  n=109 (deg 218) m=109: case Z [CT]    0.064 (robust   0.064); case N (5.4)     1.004; LK case (i)      6.40  -> h^- > 1: False
+  n=110 (deg 220) m=110: case Z [CT]    0.074 (robust   0.074); case N (5.4)     1.159; LK case (i)      7.46  -> h^- > 1: False
+  n=111 (deg 222) m=111: case Z [CT]    0.088 (robust   0.087); case N (5.4)     1.353; LK case (i)      8.80  -> h^- > 1: False
+  n=112 (deg 224) m=112: case Z [CT]    0.103 (robust   0.102); case N (5.4)     1.567; LK case (i)     10.28  -> h^- > 1: False
+  n=113 (deg 226) m=113: case Z [CT]    0.119 (robust   0.118); case N (5.4)     1.798; LK case (i)     11.91  -> h^- > 1: False
+  n=114 (deg 228) m=114: case Z [CT]    0.139 (robust   0.139); case N (5.4)     2.088; LK case (i)     13.96  -> h^- > 1: False
+  n=115 (deg 230) m=115: case Z [CT]    0.164 (robust   0.163); case N (5.4)     2.430; LK case (i)     16.40  -> h^- > 1: False
+  n=116 (deg 232) m=116: case Z [CT]    0.190 (robust   0.189); case N (5.4)     2.802; LK case (i)     19.08  -> h^- > 1: False
+  n=117 (deg 234) m=117: case Z [CT]    0.224 (robust   0.223); case N (5.4)     3.271; LK case (i)     22.48  -> h^- > 1: False
+  n=118 (deg 236) m=118: case Z [CT]    0.262 (robust   0.260); case N (5.4)     3.783; LK case (i)     26.24  -> h^- > 1: False
+  n=119 (deg 238) m=119: case Z [CT]    0.306 (robust   0.304); case N (5.4)     4.382; LK case (i)     30.67  -> h^- > 1: False
+  n=120 (deg 240) m=120: case Z [CT]    0.362 (robust   0.360); case N (5.4)     5.141; LK case (i)     36.30  -> h^- > 1: False
+  n=121 (deg 242) m=121: case Z [CT]    0.425 (robust   0.422); case N (5.4)     5.974; LK case (i)     42.54  -> h^- > 1: False
+  n=122 (deg 244) m=122: case Z [CT]    0.498 (robust   0.496); case N (5.4)     6.952; LK case (i)     49.94  -> h^- > 1: False
+  n=123 (deg 246) m=123: case Z [CT]    0.579 (robust   0.576); case N (5.4)     8.009; LK case (i)     58.04  -> h^- > 1: False
+  n=124 (deg 248) m=124: case Z [CT]    0.682 (robust   0.678); case N (5.4)     9.347; LK case (i)     68.31  -> h^- > 1: False
+  n=125 (deg 250) m=125: case Z [CT]    0.804 (robust   0.799); case N (5.4)    10.925; LK case (i)     80.53  -> h^- > 1: False
+  n=126 (deg 252) m=126: case Z [CT]    0.938 (robust   0.932); case N (5.4)    12.640; LK case (i)     93.95  -> h^- > 1: False
+  n=127 (deg 254) m=127: case Z [CT]    1.108 (robust   1.102); case N (5.4)    14.816; LK case (i)    111.05  -> h^- > 1: True
+  n=128 (deg 256) m=128: case Z [CT]    1.296 (robust   1.289); case N (5.4)    17.188; LK case (i)    129.89  -> h^- > 1: True
+  n=129 (deg 258) m=129: case Z [CT]    1.518 (robust   1.509); case N (5.4)    19.965; LK case (i)    152.13  -> h^- > 1: True
+  n=130 (deg 260) m=130: case Z [CT]    1.802 (robust   1.791); case N (5.4)    23.504; LK case (i)    180.55  -> h^- > 1: True
+  n=131 (deg 262) m=131: case Z [CT]    2.116 (robust   2.103); case N (5.4)    27.376; LK case (i)    212.00  -> h^- > 1: True
+  n=132 (deg 264) m=132: case Z [CT]    2.487 (robust   2.472); case N (5.4)    31.927; LK case (i)    249.23  -> h^- > 1: True
+  n=133 (deg 266) m=133: case Z [CT]    2.928 (robust   2.910); case N (5.4)    37.284; LK case (i)    293.37  -> h^- > 1: True
+  n=134 (deg 268) m=134: case Z [CT]    3.451 (robust   3.429); case N (5.4)    43.596; LK case (i)    335.40  -> h^- > 1: True
+  n=135 (deg 270) m=134: case Z [CT]    3.731 (robust   3.708); case N (5.4)    46.791; LK case (i)    362.67  -> h^- > 1: True
+  n=136 (deg 272) m=134: case Z [CT]    4.035 (robust   4.009); case N (5.4)    50.223; LK case (i)    392.16  -> h^- > 1: True
+  n=137 (deg 274) m=134: case Z [CT]    4.363 (robust   4.335); case N (5.4)    53.910; LK case (i)    424.04  -> h^- > 1: True
+  n=138 (deg 276) m=134: case Z [CT]    4.717 (robust   4.687); case N (5.4)    57.870; LK case (i)    458.51  -> h^- > 1: True
+  n=139 (deg 278) m=134: case Z [CT]    5.101 (robust   5.068); case N (5.4)    62.125; LK case (i)    495.79  -> h^- > 1: True
+  n=140 (deg 280) m=134: case Z [CT]    5.515 (robust   5.480); case N (5.4)    66.696; LK case (i)    536.10  -> h^- > 1: True
+=> [CT] alone: every CM field with h^- = 1 has n <= 126, i.e. degree <= 252
+=> using only Table-1-recomputable rows (m in [108, 109, 110, 120, 130, 134]): degree <= 258
