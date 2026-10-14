@@ -1,5 +1,7 @@
 # tau-vanishing
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23373197.svg)](https://doi.org/10.5281/zenodo.23373197)
+
 **Vanishing of Fourier coefficients from a uniform zero-free half-plane, and an uncertainty principle for involutions
 in PGL₂(𝔽_ℓ).**
 
@@ -9,7 +11,7 @@ Write `Z(θ)` for the statement "`ζ_K(s) ≠ 0` for `Re s > θ`, for every numb
 `Z(31/32)`; the constant `31/32` appears so far only in the Lean development, and no human-readable proof of it is
 public. This repository contains:
 
-* `paper/note.tex`, `paper/note.pdf`: a mathematical note (preprint, version 1.1.2, unrefereed);
+* `paper/note.tex`, `paper/note.pdf`: a mathematical note (preprint, version 1.1.3, unrefereed);
 * `TauVanishing/`: a Lean 4 + Mathlib formalisation of the implication in Theorem A, built on the Lean half-plane.
   It is **complete** (no `sorry`) in the form `x^{(1+θ)/2+ε}`, conditional on one explicit hypothesis about mod-`ℓ`
   Galois representations; see [Lean status](#lean-status);
@@ -405,11 +407,12 @@ The full bibliography is in `paper/note.tex`.
 ## How to cite
 
 Citation metadata are in [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button uses it) and, for
-Zenodo, in [`.zenodo.json`](.zenodo.json). Until a DOI exists, please cite:
+Zenodo, in [`.zenodo.json`](.zenodo.json). The repository is archived on Zenodo with concept DOI
+[10.5281/zenodo.23373197](https://doi.org/10.5281/zenodo.23373197), which always resolves to the latest version. Please cite:
 
 > M. Blem, *Vanishing of Fourier coefficients from a uniform zero-free half-plane, and an uncertainty principle for
-> involutions in PGL₂(𝔽_ℓ)*, preprint (unrefereed) with Lean 4 formalisation, version 1.1.2 (2026),
-> https://github.com/SlackEight/tau-vanishing (`paper/note.pdf`).
+> involutions in PGL₂(𝔽_ℓ)*, preprint (unrefereed) with Lean 4 formalisation, version 1.1.3 (2026),
+> https://doi.org/10.5281/zenodo.23373197.
 
 ```bibtex
 @misc{Blem2026TauVanishing,
@@ -417,8 +420,9 @@ Zenodo, in [`.zenodo.json`](.zenodo.json). Until a DOI exists, please cite:
   title        = {Vanishing of Fourier coefficients from a uniform zero-free half-plane, and an uncertainty
                   principle for involutions in {$\mathrm{PGL}_2(\mathbb{F}_\ell)$}},
   year         = {2026},
+  doi          = {10.5281/zenodo.23373197},
   howpublished = {\url{https://github.com/SlackEight/tau-vanishing}},
-  note         = {Version 1.1.2. Preprint, unrefereed (paper/note.pdf), with a Lean~4 formalisation of Theorem~A}
+  note         = {Version 1.1.3. Preprint, unrefereed (paper/note.pdf), with a Lean~4 formalisation of Theorem~A}
 }
 ```
 

@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below, and also cite the inputs it rests on (see README.md, Citations)."
 type: software
 title: "Vanishing of Fourier coefficients from a uniform zero-free half-plane, and an uncertainty principle for involutions in PGL₂(𝔽_ℓ)"
-version: 1.1.2
+version: 1.1.3
+doi: 10.5281/zenodo.23373197
 date-released: "2026-10-14"  # must match the date of the GitHub release (and .zenodo.json publication_date)
 authors:
   - family-names: Blem
@@ -49,7 +50,7 @@ preferred-citation:
   status: preprint
   url: "https://github.com/SlackEight/tau-vanishing/blob/master/paper/note.pdf"
   notes: >-
-    Preprint, unrefereed (paper/note.pdf in the repository), version 1.1.2. The implication of Theorem A is formalised
+    Preprint, unrefereed (paper/note.pdf in the repository), version 1.1.3. The implication of Theorem A is formalised
     in Lean 4 in the directory TauVanishing/ of the same repository (form x^{(1+θ)/2+ε}, conditional on hypothesis H1).
 references:
   - type: article
